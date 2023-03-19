@@ -50,8 +50,8 @@ app.get('/service', (req, res) => {
         Price2: 350,
         Price3: 500,
         imag1: "https://dartinnovations.com/wp-content/uploads/2022/03/Html5-development-Seo.jpg",
-        imag2: "images/API-Testing-Training-Noida.png",
-        imag3: "images/Training-Express-logo.jpg"
+        imag2: "https://gvtacademy.com/admin/file_images/API-Testing-Training-Noida.png",
+        imag3: "https://www.instituteofhospitality.org/wp-content/uploads/2019/06/Training-Express-logo.jpg"
     })
 })
 
@@ -70,10 +70,10 @@ app.get('/team', (req, res) => {
         age2: 42,
         age3: 30,
         age4: 55,
-        img1: "images/trainer-2.jpg",
-        img2: "images/trainer-3.jpg",
-        img3: "images/trainer-2.jpg",
-        img4: "images/trainer-1.jpg"
+        img1: "https://deadline.com/wp-content/uploads/2020/09/Gugu-Mbatha-Raw-e1610021013129.jpg",
+        img2: "https://cdn.britannica.com/05/236505-050-17B6E34A/Elon-Musk-2022.jpg",
+        img3: "https://content.api.news/v3/images/bin/36be662bc1f3d3fe8285ace80646c15a",
+        img4: "https://images.ctfassets.net/3njn2qm7rrbs/5NU5NvD8LOQh33kbTn6aot/92245e772612c5c23f307c0d3f301fa4/Isaac_Z._Schlueter.jpeg?w=500"
     })
 })
 app.get('/weather', (req, res) => {
