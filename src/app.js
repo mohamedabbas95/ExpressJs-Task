@@ -128,7 +128,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({
     extended: true
 }));
-app.post('/team', (req, res) => {
+app.post('/weather', (req, res) => {
     weatherForecast(req.body.city, (error, data) => {
         if (data) {
             res.render('weather', {
