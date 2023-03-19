@@ -49,7 +49,7 @@ app.get('/service', (req, res) => {
         Price1: 200,
         Price2: 350,
         Price3: 500,
-        imag1: "images/Html.jpg",
+        imag1: "https://www.google.com.eg/url?sa=i&url=https%3A%2F%2Fdartinnovations.com%2Fweb-applications-development%2Fhtml5-development%2F&psig=AOvVaw1f-bQBog8D9elkMshV92sT&ust=1679315825146000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDn2IuB6P0CFQAAAAAdAAAAABAE",
         imag2: "images/API-Testing-Training-Noida.png",
         imag3: "images/Training-Express-logo.jpg"
     })
