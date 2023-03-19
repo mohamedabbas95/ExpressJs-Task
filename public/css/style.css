@@ -7,6 +7,12 @@ body{
 .hi {
     min-height: 600px;
 }
+.bord{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: grey;
+}
 h2 {
     background-color: grey;
     color: #fafafa;
