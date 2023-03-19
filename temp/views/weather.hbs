@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mohamed Abbas Task Lec 6</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <h2>{{>header}} </h2>
+    <div class="container ">
+        <div class="jumbotron animate__animated animate__backInLeft">
+            <h1 class="display-4">Welcome at weather forecast </h1>
+            <p class="lead">This is a simple information from weather API about the current weather of country.</p>
+            <hr class="my-4">
+            <p>simply Enter your selected country down below.</p>
+
+        </div>
+    </div>
+
+
+    <form action="http://localhost:3000/team" method="POST" class="h animate__animated animate__tada">
+        <div class="form-group mt-5 formContainer">
+            <label for="country">Enter country Name</label>
+            <input type="text" name="city" class="form-control" id="formGroupExampleInput"
+                placeholder="country Name"><br>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary mt-2 w-50">show Weather Forecast</button>
+            </div>
+        </div>
+
+    </form>
+
+    <div class="container text-center mt-3 bg-light ">
+        <h3 class="text-success">{{weather}}</h3>
+        <h2>{{e}}</h2>
+    </div>
+
+    <h2>{{>footer}} </h2>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

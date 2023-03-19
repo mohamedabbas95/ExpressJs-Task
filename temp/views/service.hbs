@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>Mohamed Abbas Task Lec 6</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      <script src="https://kit.fontawesome.com/277864c596.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+      <h2>{{>header}} </h2>
+
+      <div class="container hi text-center  mt-5">
+            <div class="row ">
+                  <div class="col-6 ">
+                        <div class="card  mx-auto animate__animated animate__bounceInLeft" style="width:25rem;">
+                              <img class="card-img-top pb-3" src={{imag1}}>
+                              <div class="card-body">
+                                    <h5 class="card-title">{{cname1}} Course</h5>
+                                    <p class="card-text">OUR Learning Center Located At{{location}} and Course Price is
+                                          : {{Price1}} $</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">Visit link</a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-6">
+                        <div class="card mx-auto animate__animated animate__bounceInRight" style="width:25rem;">
+                              <img class="card-img-top " src={{imag2}}>
+                              <div class="card-body">
+                                    <h5 class="card-title">{{cname2}} Course</h5>
+                                    <p class="card-text">OUR Learning Center Located At{{location}} and Course Price is
+                                          : {{Price2}} $</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">Visit link</a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                  <div class="col-12 ">
+                        <div class="card mx-auto animate__animated animate__bounceInDown" style="width:25rem;">
+                              <img class="card-img-top " src={{imag3}}>
+                              <div class="card-body">
+                                    <h5 class="card-title">{{cname3}} Course</h5>
+                                    <p class="card-text">OUR Learning Center Located At{{location}} and Course Price is
+                                          : {{Price3}} $</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">Visit link</a>
+                              </div>
+                        </div>
+                  </div>
+
+            </div>
+
+      </div>
+
+      <h2>{{>footer}} </h2>
+      <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

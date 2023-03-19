@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+      <head>
+           <title>Mohamed Abbas Task Lec 6</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      </head>
+
+      <body>
+              <h2>{{>header}} </h2>
+      <div class="container text-center  mt-5">
+            <div class="row ">
+                  <div class="col-6 ">
+                        <div class="card  mx-auto animate__animated animate__bounceInLeft" style="width:25rem;">
+                              <img class="card-img-top " src={{img1}}>
+                        <div class="card-body">
+                              <h5 class="card-title">{{name1}}</h5>
+                              <p class="card-text">hello i'm from {{city1}} and i'm {{age1}} years old</p>
+                              <a href="#" class="btn btn-outline-primary btn-sm">Visit link</a>
+                        </div>
+                         </div>
+                   </div>
+                  <div class="col-6">
+                        <div class="card mx-auto animate__animated animate__bounceInRight" style="width:25rem;">
+                              <img class=" card-img-top" src={{img2}}>
+                              <div class="card-body">            
+                        <h5 class="card-title">{{name2}}</h5>
+                        <p class="card-text">hello i'm from {{city2}} and i'm {{age2}} years old</p>
+                              <a href="#" class="btn btn-outline-primary btn-sm">Visit link</a>           
+                                    </div>           
+                              </div>           
+                        </div>         
+                  </div>
+
+                  <div class="row mt-3 mb-3">
+                        <div class="col-6">
+                              <div class="card  mx-auto animate__animated animate__bounceInRight" style="width:25rem;">
+                                    <img class="card-img-top " src={{img3}}>
+                                    <div class="card-body">
+                                          <h5 class="card-title">{{name3}}</h5>
+                                          <p class="card-text">hello i'm from {{city3}} and i'm {{age3}} years old</p>
+                                          <a href="#" class="btn btn-outline-primary btn-sm">Visit link</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-6">
+                              <div class="card  mx-auto animate__animated animate__bounceInLeft" style="width:25rem;">
+                                    <img class=" card-img-top" src={{img4}}>
+                                    <div class="card-body">
+                                    <h5 class="card-title">{{name4}}</h5>
+                                    <p class="card-text">hello i'm from {{city4}} and i'm {{age4}} years old</p>
+                                          <a href="#" class="btn btn-outline-primary btn-sm">Visit link</a>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <h2>{{>footer}} </h2>
+            <script src="js/bootstrap.min.js"></script>
+      </body>
+</html>
